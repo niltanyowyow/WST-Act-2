@@ -1,0 +1,79 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("/img/spotify.jpg") no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .song-container {
+      background-color: rgba(20, 20, 20, 0.9);
+      padding: 20px;
+      border-radius: 12px;
+      width: 900px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 2rem;
+      color: #00ff73;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #00ff73;
+    }
+
+    th {
+      padding: 10px;
+      font-size: 1.1rem;
+      text-align: center;
+      color: #00ff73;
+    }
+
+    td {
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    td img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+      transition: transform 0.3s ease;
+    }
+
+    td img:hover {
+      transform: scale(1.05);
+    }
+
+    .song-title {
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: #fff;
+    }
+
+    a {
+      text-decoration: none;
+      color: #00bfff;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
